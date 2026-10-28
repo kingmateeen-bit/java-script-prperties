@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 05 - HTML Properties</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <main class="container">
+        <h1 id="mainTitle" class="heading">HTML Properties Playground</h1>
+        <p>Practice common JavaScript properties.</p>
+
+        <section class="card">
+            <h2>1. value</h2>
+            <input id="nameInput" type="text"
+                   value="Mateen" placeholder="Enter name">
+            <button id="valueBtn">Get Value</button>
+            <p id="valueOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>2. innerText</h2>
+            <p id="innerTextExample">Hello <strong>JavaScript</strong>!</p>
+            <button id="innerTextBtn">Get innerText</button>
+            <p id="innerTextOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>3. textContent</h2>
+            <p id="textContentExample">
+                Learn <strong>HTML</strong> and JavaScript.
+            </p>
+            <button id="textContentBtn">Get textContent</button>
+            <p id="textContentOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>4. innerHTML</h2>
+            <div id="innerHTMLExample">
+                <b>Hello</b> <i>World</i>
+            </div>
+            <button id="innerHTMLBtn">Get innerHTML</button>
+            <pre id="innerHTMLOutput"></pre>
+        </section>
+
+        <section class="card">
+            <h2>5. outerHTML</h2>
+            <p id="outerHTMLExample" class="sample">
+          My name is <span>Mateen</span> and I love <em>JavaScript</em>.
+            </p>
+            <button id="outerHTMLBtn">Get outerHTML</button>
+            <pre id="outerHTMLOutput"></pre>
+        </section>
+
+        <section class="card">
+            <h2>6. checked</h2>
+            <label>
+                <input type="checkbox" id="agreeCheckbox">
+                I agree to the terms
+            </label>
+            <button id="checkedBtn">Check Status</button>
+            <p id="checkedOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>7. selectedIndex</h2>
+            <select id="colorSelect">
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+            </select>
+            <button id="selectedIndexBtn">Get Index</button>
+            <p id="selectedIndexOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>8. files</h2>
+            <input type="file" id="fileInput">
+            <button id="filesBtn">Get File Name</button>
+            <p id="filesOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>9. className</h2>
+            <p id="classExample" class="highlight">
+                This paragraph has a class.
+            </p>
+            <button id="classNameBtn">Get className</button>
+            <p id="classNameOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>10. id</h2>
+            <p id="idExample">This paragraph has an ID.</p>
+            <button id="idBtn">Get ID</button>
+            <p id="idOutput"></p>
+        </section>
+
+        <section class="card">
+            <h2>11. attributes</h2>
+            <p id="attributesExample"
+               class="info"
+               title="This is a tooltip"
+               data-topic="JavaScript">
+                Inspect my attributes.
+            </p>
+            <button id="attributesBtn">Get Attributes</button>
+            <pre id="attributesOutput"></pre>
+        </section>
+
+    </main>
+
+</body>
+</html>
